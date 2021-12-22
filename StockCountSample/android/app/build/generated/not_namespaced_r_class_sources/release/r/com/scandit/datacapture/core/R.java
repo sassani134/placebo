@@ -12,18 +12,18 @@ public final class R {
     public static final class drawable {
         private drawable() {}
 
-        public static final int ic_camera_primary = 0x7f07006f;
-        public static final int ic_camera_primary_pressed = 0x7f070070;
-        public static final int ic_camera_secondary = 0x7f070071;
-        public static final int ic_camera_secondary_pressed = 0x7f070072;
-        public static final int ic_torch_off = 0x7f07007d;
-        public static final int ic_torch_off_pressed = 0x7f07007e;
-        public static final int ic_torch_on = 0x7f07007f;
-        public static final int ic_torch_on_pressed = 0x7f070080;
-        public static final int ic_zoomed_in = 0x7f070081;
-        public static final int ic_zoomed_in_pressed = 0x7f070082;
-        public static final int ic_zoomed_out = 0x7f070083;
-        public static final int ic_zoomed_out_pressed = 0x7f070084;
+        public static final int ic_camera_primary = 0x7f070070;
+        public static final int ic_camera_primary_pressed = 0x7f070071;
+        public static final int ic_camera_secondary = 0x7f070072;
+        public static final int ic_camera_secondary_pressed = 0x7f070073;
+        public static final int ic_torch_off = 0x7f07007e;
+        public static final int ic_torch_off_pressed = 0x7f07007f;
+        public static final int ic_torch_on = 0x7f070080;
+        public static final int ic_torch_on_pressed = 0x7f070081;
+        public static final int ic_zoomed_in = 0x7f070082;
+        public static final int ic_zoomed_in_pressed = 0x7f070083;
+        public static final int ic_zoomed_out = 0x7f070084;
+        public static final int ic_zoomed_out_pressed = 0x7f070085;
     }
     public static final class integer {
         private integer() {}

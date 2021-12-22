@@ -1,4 +1,4 @@
-com.scandit.stockcountsample
+com.basicscana.app
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -1317,6 +1317,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable app_images_barcode_black
 drawable app_images_fab_add_to_list
+drawable app_images_fab_fetch_to_rails
 drawable avd_hide_password
 drawable avd_show_password
 drawable btn_checkbox_checked_mtrl

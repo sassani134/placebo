@@ -1,1 +1,1 @@
-{"mName":"release","mStoreFile":"/Users/samuelassani/betatest/datacapture-react-native-samples/StockCountSample/android/app/stockKey.keystore","mStorePassword":"password123456","mKeyAlias":"stockAlias","mKeyPassword":"password123456","mStoreType":"jks","mV1SigningEnabled":true,"mV2SigningEnabled":true}
+{"mName":"release","mStoreFile":"/Users/philippe/Dev/CANA_APP/placebo/StockCountSample/android/app/key_name.keystore","mStorePassword":"Philippe123456","mKeyAlias":"key_alias","mKeyPassword":"Philippe123456","mStoreType":"jks","mV1SigningEnabled":true,"mV2SigningEnabled":true}

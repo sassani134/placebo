@@ -1,7 +1,7 @@
-#Wed Dec 22 16:15:55 CET 2021
-base.0=/Users/samuelassani/betatest/datacapture-react-native-samples/StockCountSample/android/app/build/intermediates/dex/release/mergeDexRelease/out/classes.dex
+#Wed Dec 22 18:45:46 CET 2021
+base.0=/Users/philippe/Dev/CANA_APP/placebo/StockCountSample/android/app/build/intermediates/dex/release/mergeDexRelease/out/classes.dex
 path.1=classes2.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=/Users/samuelassani/betatest/datacapture-react-native-samples/StockCountSample/android/app/build/intermediates/dex/release/mergeDexRelease/out/classes2.dex
+base.1=/Users/philippe/Dev/CANA_APP/placebo/StockCountSample/android/app/build/intermediates/dex/release/mergeDexRelease/out/classes2.dex
