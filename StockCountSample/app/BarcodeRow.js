@@ -10,12 +10,19 @@ import { useState } from 'react/cjs/react.development';
 import { styles } from './styles';
 
 export const BarcodeRow = ({ result = {} }) => {
+
+
+
     const { data, symbology } = result;
     const [count, setcount] = useState(result.itemCount);
     const updateValue = (x) => {
         setcount(x);
         result.itemCount = x
     }
+
+
+    
+
     return (
         <View style={styles.result}>
             <ImageBackground source={require('./images/barcode_black.png')} style={styles.resultImage} />
