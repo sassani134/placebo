@@ -1,7 +1,0 @@
-{
-  "name": "MatrixScanSimpleSample",
-  "displayName": "MSSimple",
-  "android": {
-    "package": "com.scandit.matrixscansimplesample"
-  }
-}

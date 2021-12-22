@@ -1,7 +1,0 @@
-{
-  "name": "MatrixScanRejectSample",
-  "displayName": "MSReject",
-  "android": {
-    "package": "com.scandit.matrixscanrejectsample"
-  }
-}
