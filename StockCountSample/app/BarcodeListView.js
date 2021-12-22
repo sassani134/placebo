@@ -135,6 +135,50 @@ export const BarcodeListView = ({ show = false, results = {}, style = {}, ...pro
         propsSansStyle.onCardPress(e);
     }
 
+
+
+
+
+
+
+    const fetchData = () => {
+        return fetch("http://192.168.1.52:3000/admin/mdmb_scans" , {
+         method: 'POST',
+         format: 'json',
+            headers: {
+            Accept: 'application/json',
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ data: consolidatedResults })
+       }).then((response) => {
+          clear();
+       })
+     }
+
+    const addFetchButton = () => (
+        <TouchableOpacity
+          activeOpacity={0.67}
+          style={styles.addFetchButton}
+          onPress={() => fetchData()}>
+          <ImageBackground
+            source={require('./images/fab_fetch_to_rails.png')}
+            style={styles.addBarcodesButtonImage}
+          />
+        </TouchableOpacity>
+    );
+
+    const clear = () => {
+        setConsolidatedResults({});
+        propsSansStyle.onClearPress();
+    };
+
+
+
+
+
+
+
+
     return (
         <View style={{ ...styles.containerStyle, ...style }} >
             <View style={styles.overlayStyle}>
@@ -146,6 +190,7 @@ export const BarcodeListView = ({ show = false, results = {}, style = {}, ...pro
                 </Animated.View>
             </View>
             {addBarcodesButton()}
+            {addFetchButton()}
         </View >
     );
 }

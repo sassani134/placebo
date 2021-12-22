@@ -142,5 +142,21 @@ export const styles = StyleSheet.create({
     fontSize: 12,
     lineHeight: 12,
     textAlign: 'center',
-  }
+  },
+  addFetchButton: {
+    position: 'relative',
+    right: values.marginInCard,
+    bottom: values.marginInCard,
+    justifyContent: 'center',
+    alignContent: 'center',
+    borderRadius: 30,
+    zIndex: 6,
+    width: values.barcodesButtonDiameter,
+    height: values.barcodesButtonDiameter,
+    marginTop: 50,
+    marginLeft: 50,
+  },
+  input: {
+    height: 40,margin: 12,borderWidth: 1,padding: 10,
+  },
 });

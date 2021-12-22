@@ -1,4 +1,4 @@
-package com.scandit.stockcountsample;
+package com.basicscana.app;
 
 import android.app.Application;
 import android.content.Context;
