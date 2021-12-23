@@ -64,7 +64,7 @@ export class ScanPage extends Component {
 
   componentWillUnmount() {
     AppState.removeEventListener('change', this.handleAppStateChange);
-    this.dataCaptureContext.dispose();
+    //this.dataCaptureContext.dispose();
   }
 
   handleAppStateChange = async (nextAppState) => {
