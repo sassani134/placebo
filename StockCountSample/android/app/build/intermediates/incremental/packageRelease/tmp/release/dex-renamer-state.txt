@@ -1,18 +1,7 @@
-<<<<<<< HEAD
-#Thu Dec 23 10:07:51 CET 2021
-path.3=classes2.dex
-path.2=classes.dex
-=======
-#Thu Dec 23 10:47:04 CET 2021
+#Thu Dec 23 12:22:47 CET 2021
 base.0=/Users/philippe/Dev/CANA_APP/placebo/StockCountSample/android/app/build/intermediates/dex/release/mergeDexRelease/out/classes.dex
->>>>>>> philippe
 path.1=classes2.dex
-path.0=classes.dex
-renamed.3=classes4.dex
-renamed.2=classes3.dex
 renamed.1=classes2.dex
+path.0=classes.dex
 renamed.0=classes.dex
-base.3=/Users/samuelassani/betatest/placebo/StockCountSample/android/app/build/intermediates/dex/release/mergeDexRelease/out/classes2.dex
-base.2=/Users/samuelassani/betatest/placebo/StockCountSample/android/app/build/intermediates/dex/release/mergeDexRelease/out/classes.dex
 base.1=/Users/philippe/Dev/CANA_APP/placebo/StockCountSample/android/app/build/intermediates/dex/release/mergeDexRelease/out/classes2.dex
-base.0=/Users/philippe/Dev/CANA_APP/placebo/StockCountSample/android/app/build/intermediates/dex/release/mergeDexRelease/out/classes.dex

@@ -142,7 +142,7 @@ export const BarcodeListView = ({ show = false, results = {}, style = {}, ...pro
 
 
     const fetchData = () => {
-        return fetch("http://192.168.1.52:3000/admin/mdmb_scans" , {
+        return fetch("https://maisondesmetiersdebouche.fr/admin/mdmb_scans" , {
          method: 'POST',
          format: 'json',
             headers: {

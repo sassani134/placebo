@@ -14,11 +14,22 @@ export const BarcodeRow = ({ result = {} }) => {
 
 
     const { data, symbology } = result;
-    const [count, setcount] = useState(result.itemCount);
-    const updateValue = (x) => {
-        setcount(x);
-        result.itemCount = x
-    }
+    //const [count, setcount] = useState(result.itemCount);
+    
+    result.itemCount = 888
+    // const updateValue = (x) => {
+
+    //     console.log('counttttttttttttttttt')
+    //     console.log(count)
+    //     console.log('counttttttttttttttttt')
+
+
+
+        
+    //     setcount(0);
+    //     setcount(x);
+    //     result.itemCount = 888
+    // }
 
 
     
@@ -35,13 +46,9 @@ export const BarcodeRow = ({ result = {} }) => {
                     <View style={styles.resultStockCircle}>
                         <Text style={styles.resultStockCircleText}>-</Text>
                     </View>
-                    <TextInput 
-                        style={styles.input}
-                        keyboardType='number-pad'
-                        onChangeText={x => updateValue(x)}
-                        value={result.itemCount.toString()}
-                    />
-                    
+
+
+                    <Text style={styles.resultStockCount}>{result.itemCount}</Text>                    
                     
     
                     <View style={styles.resultStockCircle}>
