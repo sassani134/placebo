@@ -185,7 +185,7 @@ export const BarcodeListView = ({ show = false, results = {}, style = {}, ...pro
                 <Animated.View style={[styles.cardStyle, { height: interpolatedHeight }]}>
                     {header(Object.values(consolidatedResults).length)}
                     <ScrollView style={styles.resultsContainer}>
-                        
+                        {Object.values(consolidatedResults).map(entry => <BarcodeRow key={entry.data} result={entry} />)}        
                     </ScrollView>
                 </Animated.View>
             </View>
